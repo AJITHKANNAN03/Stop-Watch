@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>STOP WATCH</title>
+</head>
+<body>
+    <div class="container">
+        <!-- diplay part for display timer -->
+        <div class="display">00:00:00:00</div>
+        <!-- to display laps -->
+        <ul class="laps"></ul>
+        <!-- buttons for start stop like that actions -->
+        <div class="actions">
+            <button class="start" onclick="start()">START</button>
+            <button class="pause" onclick="pause()">PAUSE</button>
+            <button class="reset" onclick="reset()">RESET</button></br>
+            <button class="restart" onclick="restart()">RESTART</button>
+            <button class="lap" onclick="lap()">LAPS</button>
+            <button class="resetLaps" onclick="resetLaps()">RESET LAPS</button>
+        </div>
+     </div>
+    <script src="./index.js"></script>
+</body>
+</html>
